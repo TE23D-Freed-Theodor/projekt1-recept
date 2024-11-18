@@ -1,0 +1,7 @@
+/* Nedan är "grundinställningarna" */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Padding inkluderas i alla element och läggs inte på. Width: 200px; blir då alltid 200px bred, inklusive padding */
+}
