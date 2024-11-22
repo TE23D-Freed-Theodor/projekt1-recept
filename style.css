@@ -35,4 +35,42 @@ body {
 
 #header h1 {
     font-size: 2.5em; /* h1 text blir dubbelt så stor som underrubrik */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#header p {
+    font-size: 1.2em;
+    color: #e0e0e0;
+}
+
+#intro {
+    text-align: center;
+    background-color: #1E2A50;
+    padding: 15px;
+    font-size: 1.1em;
+}
+
+#ingredients {
+    background: #6552D0;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* 0px till höger, 4px ner, 6px blur, svart, 0.3 opacity */
+}
+
+#ingredients h2 {
+    margin-bottom: 15px;
+    font-size: 1.8em;
+    font-weight: bolder;
+}
+
+#ingredients ul {
+    list-style: none;
+    line-height: 30px;
+}
+
+#ingredients li::before {
+    content: "•"; /* Lägger till en custom bulletjävel */
+    color: #fff; /* punkten ska vara vit */
+    font-size: 1.2em; /*1.2 gånger så stor*/
+    margin-right: 10px; /* Avstånd mellan punkt och text */
 }
