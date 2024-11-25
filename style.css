@@ -126,3 +126,16 @@ footer a:hover {
     font-size: 15px;
     color: #282b30;
 }
+
+button {
+    background-color: #1e2124;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #282b30;
+}
