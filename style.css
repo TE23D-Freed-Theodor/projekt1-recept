@@ -7,26 +7,26 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Innehåll, padding och border inkluderas i den angivna bredden eller höjden.    */
+    box-sizing: border-box;
 }
 
 body {
     font-family: "lato", sans-serif;
-    background-color: #17203D;
+    background-color: #36393e;
     color: #fff;
     display: flex;
-    flex-direction: column; /* Staplar elementen vertikalt */
-    justify-content: flex-start; /* Default value. Items are positioned at the beginning of the container */
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center; 
-    height: 100vh; /* Täcker hela fönstret */
-    gap: 20px; /* Mellanrum mellan sektionerna */
-    max-width: 800px; /* Begränsar sidans bredd till 800px*/
-    margin: 0 auto; /* Centrerar sidan horisontellt. Ingen skillnad upp-och-ner */
+    height: 100vh;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 /* Header */
 #header {
-    background-color: #6552D0;
+    background-color: #424549;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
@@ -42,13 +42,13 @@ body {
 
 #header p {
     font-size: 1.2em;
-    color: #e0e0e0;
+    color: #1e2124;
 }
 
 /* Introduktion */
 #intro {
     text-align: center;
-    background-color: #1E2A50;
+    background-color: #282b30;
     padding: 15px;
     font-size: 1.1em;
     border-radius: 10px;
@@ -56,9 +56,9 @@ body {
 
 #ingredients-container {
     display: flex; 
-    gap: 20px; /* Utrymme mellan bilden och innehållet */
+    gap: 20px;
     align-items: flex-start; 
-    background-color: #6552D0;
+    background-color: #424549;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
@@ -84,15 +84,15 @@ body {
 }
 
 #ingredients li::before {
-    content: "•"; /* Anpassad punkt */
-    color: #fff;
+    content: "•";
+    color: #1e2124;
     font-size: 1.2em;
     margin-right: 10px;
 }
 
 /* Instruktioner */
 #instructions {
-    background-color: #1E2A50;
+    background-color: #282b30;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
@@ -113,22 +113,22 @@ footer {
     text-align: center;
     font-size: 0.9em;
     padding: 10px;
-    background-color: #6552D0;
+    background-color: #424549;
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 footer a {
-    color: #e0e0e0;
+    color: #1e2124;
 }
 
 footer a:hover {
     font-size: 15px;
-    color: hwb(0 88% 12% / 0.719);
+    color: #282b30;
 }
 
 #nav {
-    background-color: #1E2A50;
+    background-color: #282b30;
     margin-top: 20px;
     padding: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
@@ -147,5 +147,5 @@ footer a:hover {
 }
 
 #nav a:hover {
-    background-color: #6552D0;
+    background-color: #1e2124;
 }
