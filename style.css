@@ -41,7 +41,7 @@ body {
 #logo {
     position: absolute; /* Gör logotypen oberoende av textcentreringen */
     height: 100px; /* Justera storleken */
-    border-radius: 10px; /* Rundade hörn (valfritt) */
+    border-radius: 10px; 
     left: 40px;
     top: 20px;
     border-radius: 100px;
